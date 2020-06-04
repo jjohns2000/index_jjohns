@@ -1,2 +1,2 @@
-# index_jjohns
+# personal_web_jjohns
 personal website
