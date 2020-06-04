@@ -1,0 +1,106 @@
+body,html 
+{
+    height: 100%;
+}
+
+.bg 
+{
+    /* background-image: url("img1.jpg"); */
+    background-image: linear-gradient(to bottom right, rgb(126, 22, 158), rgb(68, 102, 197));
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.jumbotron
+{
+    color: #ffffff;
+    background-image: linear-gradient(to bottom right, rgb(68, 102, 197), rgb(107, 18, 134));
+    opacity: 0.7;
+    
+}
+h3
+{
+    font-family: 'Playfair Display', serif;
+}
+h1
+{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+ul.social-network 
+{
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+    position: relative;
+    left: 37%; 
+}
+ul.social-network li 
+{
+    display: inline;
+}
+.social-network a.icoFacebook:hover 
+{
+  background-color: #9e9b9b;
+}
+.social-network a.icoLinkedin:hover 
+{
+  background-color: #9e9b9b;
+}
+.social-network a.icoGithub:hover 
+{
+  background-color:#9e9b9b ;
+}
+.social-network a.icoinstagram:hover 
+{
+  background-color: #9e9b9b;
+}
+.social-network a.icosnapchat:hover 
+{
+  background-color: #9e9b9b;
+}
+.social-network a.icoyoutube:hover 
+{
+  background-color: #9e9b9b;
+}
+.social-circle li a 
+{
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+  
+}
+ 
+
+
+.social-circle li i 
+{
+  margin: 0;
+  line-height: 30px;
+  text-align: center;
+}
+.social-circle i {
+  color: #000000;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+.social-network a {
+  background-color: #ffffff;
+}
+.panel-primary
+{
+  color: black;
+  border-radius: 7px;
+}
